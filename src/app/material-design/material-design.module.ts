@@ -9,6 +9,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [],
@@ -16,6 +18,6 @@ import { MatChipsModule } from '@angular/material/chips';
     CommonModule
   ],
   exports: [MatButtonModule, MatCardModule,
-    MatToolbarModule, MatInputModule, MatFormFieldModule, MatDividerModule, MatProgressSpinnerModule, MatGridListModule, MatChipsModule],
+    MatToolbarModule, MatInputModule, MatFormFieldModule, MatDividerModule, MatProgressSpinnerModule, MatGridListModule, MatChipsModule, MatBadgeModule, MatIconModule],
 })
 export class MaterialDesignModule { }
