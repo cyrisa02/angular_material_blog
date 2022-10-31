@@ -9,13 +9,16 @@ import { BlogPageComponent } from './blog/blog-page/blog-page.component';
 import { SingleBlogComponent } from './blog/single-blog/single-blog.component';
 import { PostComponent } from './blog/post/post.component';
 
+import { AmdinblogComponent } from './amdinblog/amdinblog.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     BlogPageComponent,
     SingleBlogComponent,
-    PostComponent
+    PostComponent,
+    AmdinblogComponent
   ],
   imports: [
     BrowserModule,
