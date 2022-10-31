@@ -2,9 +2,15 @@
   Ng Mat
   <a routerLink="blog" href="" mat-stroked-button>Blog</a>
   <div>
-    <mat-icon style="margin-right: 10px" matBadge="15" matBadgeColor="accent"
-      >notifications</mat-icon
-    >
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon style="margin-right: 10px" matBadge="15" matBadgeColor="accent"
+        >notifications</mat-icon
+      >
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Your friend got new car</button>
+      <button mat-menu-item>You are tagged in FaceBook recent photo</button>
+    </mat-menu>
 
     <a routerLink="login" href="" mat-stroked-button>Login</a>
   </div>
