@@ -27,6 +27,9 @@ Création de la route login
 ng generate component auth/login
 Modifier le app-routing.module
 + <router-outlet></router-outlet> dans app.component.html 
-
+---------------------------
+Pour redéployer sur netlify
+push sur github
+aller sur le projet puis deploys  /  Options / Retry with latest branch commit
 
 
