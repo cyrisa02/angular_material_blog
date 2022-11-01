@@ -13,6 +13,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatTableModule } from '@angular/material/table';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [],
@@ -20,6 +21,6 @@ import { MatTableModule } from '@angular/material/table';
     CommonModule
   ],
   exports: [MatButtonModule, MatCardModule,
-    MatToolbarModule, MatInputModule, MatFormFieldModule, MatDividerModule, MatProgressSpinnerModule, MatGridListModule, MatChipsModule, MatBadgeModule, MatIconModule, MatMenuModule, MatTableModule],
+    MatToolbarModule, MatInputModule, MatFormFieldModule, MatDividerModule, MatProgressSpinnerModule, MatGridListModule, MatChipsModule, MatBadgeModule, MatIconModule, MatMenuModule, MatTableModule, MatDialogModule],
 })
 export class MaterialDesignModule { }
